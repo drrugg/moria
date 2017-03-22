@@ -27,14 +27,14 @@ var MAPCRAFTER_MARKERS = [
     {
         "id" : "homes",
         "name" : "Homes",
-        "icon" : "home.png",
-        "iconSize" : [32, 32],
+//        "icon" : "home.png",
+//        "iconSize" : [32, 32],
         "markers" : {
             "world" : [
-                {"pos" : [42, 73, 64], "title" : "Steve's home"},
+                {"pos" : [-293, 71, 3861], "title" : "drrugg's base"},
             ],
             "world2" : [
-                {"pos" : [73, 42, 64], "title" : "Steve's other home"},
+                {"pos" : [-38, 5, 355], "title" : "drrugg"},
             ],
         },
     },
