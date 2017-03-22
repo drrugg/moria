@@ -8,17 +8,16 @@
 var MAPCRAFTER_MARKERS = [
     // just one example marker group
     {
-        "id" : "signs",
-        "name" : "Signs",
+        "id" : "freebies",
+        "name" : "Freebies",
         "icon" : "sign.png",
         "iconSize" : [32, 32],
         "showDefault" : true,
 
         "markers" : {
-            "world" : [
-                {"pos" : [100, 100, 64], "title" : "Test1"},
-                {"pos" : [100, 200, 64], "title" : "Test2"},
-                {"pos" : [500, 30, 64], "title" : "Test2"},
+            "moria" : [
+                {"pos" : [-361, 30, 259], "title" : "Guardian Farm"},
+                {"pos" : [708, 63, 518], "title" : "Darkling's Freebies"},
             ],
         },
     },
@@ -30,11 +29,19 @@ var MAPCRAFTER_MARKERS = [
 //        "icon" : "home.png",
 //        "iconSize" : [32, 32],
         "markers" : {
-            "world" : [
+            "moria" : [
                 {"pos" : [-293, 71, 3861], "title" : "drrugg's base"},
+                {"pos" : [-361, 30, 259], "title" : "Guardian Farm"},
+                {"pos" : [708, 63, 518], "title" : "Darkling's Base"},
+                {"pos" : [708, 63, 518], "title" : "Darkling's Freebies"},
             ],
-            "world2" : [
-                {"pos" : [-38, 5, 355], "title" : "drrugg"},
+            "moria-nether-tunnels" : [
+                {"pos" : [-38, 5, 355], "title" : "Portal to drrugg"},
+                {"pos" : [-45, 5, 28], "title" : "Portal to Guardian Farm"},
+                {"pos" : [88, 5, 16], "title" : "Portal to TimeTraveller"},
+                {"pos" : [86, 5, 118], "title" : "Stairs to Pooka/Darkling"},
+                {"pos" : [193, 5, 257], "title" : "Portal to XP Farm"},
+                {"pos" : [87, 42, 71], "title" : "Portal to Darkling"},
             ],
         },
     },
